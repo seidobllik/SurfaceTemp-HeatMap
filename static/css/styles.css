@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+#title,
+#description {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#tooltip {
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+  pointer-events: none;
+  background: white;
+  border-radius: 10px;
+}
+
+#graph {
+  margin: 0;
+  padding: 0;
+}
+
+#x-axis,
+#y-axis,
+#legend {
+  font-size: 15px;
+}
